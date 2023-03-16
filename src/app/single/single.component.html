@@ -1,0 +1,11 @@
+<div *ngFor="let item of single">
+    <div *ngIf="id == item.id">
+        <h1>{{item.title}}</h1>
+        <h1>{{item.details}}</h1>
+         <div class="mercury a1"> 
+         <img src="{{item.bgm}}" >
+       
+        <p style="height: 30px;" [innerHTML]=item.description>   <br><br>
+        </p></div>
+        <!-- </div> -->
+    

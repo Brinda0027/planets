@@ -1,0 +1,54 @@
+img{
+    background-image:linear-gradient;
+    background-size:cover;
+    background-position:centre;
+    background-attachment:fixed;
+    padding-top:20px;
+    text-align: centre;
+    color:#fff;
+    width:1230px;
+     padding-bottom: -20px; 
+     margin-top: -10pt;
+    margin-bottom: -10pt; 
+}
+.br
+{
+    
+    padding-top:0;
+    padding-bottom:0;
+    font-size:55px;
+    text-align:center;
+    color:rgb(19, 62, 5);
+    font-style:italic;
+}
+ 
+
+.overlay{
+    z-index: 1;
+    position: relative;
+    top: -450px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+h1 span {
+    transition: 0.5s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  h1:hover span {
+    color: #d9e71c;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+ 

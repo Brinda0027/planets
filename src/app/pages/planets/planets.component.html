@@ -1,0 +1,19 @@
+
+<div class="container-fluid contBg">
+  
+    <div class="row">
+        <div class="col-4" *ngFor="let item of planets">
+
+<div class="card" style="width: 18rem;">
+    <img src="{{item.Image}}" height="200" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text">{{item.details}}</p>
+      <a (click)="gotohere(item.id)" class="btn btn-primary">Click Here</a>
+      
+    </div>
+
+   
+  </div>
+
+

@@ -1,0 +1,66 @@
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family:'Times New Roman', Times, serif ;
+    
+  }
+  
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+  
+ 
+
+  
+
+
+.a1{
+    background-image: url("https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&w=1000&q=80");
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+    background-attachment: fixed;
+    padding-bottom: 800px;
+    margin-top: -10%
+}
+
+img{
+    padding-left: 50%;
+    background-size: 100%;
+    box-shadow: 0 -10px 15px rgb(117 66 25 / 50%), -50px -50px 50px #000 inset, 0 10px 15px #000;
+    animation: rotate 1.5s ease-in 1, shadowMercury 1.5s linear 1;
+    margin-top: 10%;
+   
+}
+
+.mercury p{
+    color: rgb(245, 239, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    padding-right: 10%;
+    margin-top: -32%;
+    margin-right: 45%;
+    margin-left: 10%;
+    font-style: scripts;
+    text-align: justify;
+
+ 
+
+}
+button:hover{
+  text-align: right;
+}
+
+
+
+
+ 
