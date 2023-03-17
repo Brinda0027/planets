@@ -12,6 +12,11 @@ import { SingleComponent } from './single/single.component';
 import { FormsModule } from '@angular/forms';
 import { SolarsystemComponent } from './pages/solarsystem/solarsystem.component';
 import { MembershipComponent } from './pages/membership/membership.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 
 @NgModule({
@@ -31,6 +36,10 @@ import { MembershipComponent } from './pages/membership/membership.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideDatabase(() => getDatabase()),
+    provideFirestore(() => getFirestore()),
   ],
   providers: [],
   bootstrap: [AppComponent]

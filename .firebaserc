@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "planets-87423": {
+      "hosting": {
+        "planetwebsite": [
+          "planets-87423"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "planets-87423"
+  }
+}
